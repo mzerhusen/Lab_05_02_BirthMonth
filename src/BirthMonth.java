@@ -8,7 +8,7 @@ public class BirthMonth
         int birthMonth;
         String invalidInput;
 
-        System.out.println("Please enter your birth month as a number from 1 to 12: ");
+        System.out.print("Please enter your birth month as a number from 1 to 12: ");
         if (in.hasNextInt())
         {
             birthMonth = in.nextInt();
